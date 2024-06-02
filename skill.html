@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/564x/d6/61/24/d66124b28a6b2c987db0559a221b78b8.jpg');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#skills {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #000000;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1em;
+}
+
+.skills-list li {
+    background: #336eb7;
+    color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.skills-list li:hover {
+    background: #45a049;
+    transform: translateY(-5px);
+}
+
+</style>
+<body>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
+    </section>
+</body>
+</html>
